@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('https://joaillerie-david.com/wp-content/uploads/2021/07/AdobeStock_252809407.jpg');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .logo p {
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+            color: #fff;
+            text-transform: uppercase;
+            list-style: 5px;
+            border: 2px solid #fff;
+            cursor: pointer;
+            margin: 15px 10px;
+            padding: 5ps 10px;
+        }
+
+        ul {
+            float: right;
+            list-style-type: none;
+            margin: 20px;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 30px;
+            border: 1px solid #fff;
+        }
+
+        ul li a:hover {
+            background-color: rgb(4, 4, 53);
+            color: #fff;
+        }
+
+        ul li.active a {
+            background-color: rgb(4, 4, 53);
+            color: #fff;
+        }
+
+
+        .container {
+            width: 80%;
+            margin: 0px auto;
+            padding: 90px 0;
+        }
+
+        .contact-form {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: rgba(166, 160, 160, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.01);
+            color: rgb(4, 4, 53);
+        }
+
+        .form-group {
+            margin-bottom: 40px;
+
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 70%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: rgb(4, 4, 53);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgb(35, 35, 88);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p>Diamond</p>
+        </div>
+
+        <div class="main">
+            <ul>
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <form class="contact-form" >
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+
+    </header>
+</body>
+
+</html>

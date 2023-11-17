@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('https://static.toiimg.com/thumb/msid-99951507,width-1280,height-720,resizemode-4/99951507.jpg');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo p {
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+            color: white;
+            text-transform: uppercase;
+            list-style-type: none;
+            border: 2px solid #fff;
+            cursor: pointer;
+            margin: 15px 10px;
+            padding: 5px 10px;
+        }
+
+        ul {
+            float: right;
+            list-style-type: none;
+            margin: 20px;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 30px;
+            border: 1px solid #fff;
+        }
+
+        ul li a:hover {
+            background-color: rgb(4, 4, 53);
+            color: #fff;
+        }
+
+        ul li.active a {
+            background-color: rgb(4, 4, 53);
+            color: #fff;
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .title h1 {
+            color: rgb(13 1 119);
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        .button {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn {
+            border: 1px solid #fff;
+            padding: 5px 30px;
+            color: rgb(13 1 119);
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background-color: rgb(4, 4, 53);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Diamond</p>
+        </div>
+
+        <ul>
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="title">
+        <h1>Une pureté cristalline qui rayonne.</h1>
+    </div>
+
+    <div class="button">
+        <a href="https://www.calirra.com/" class="btn">Acheter</a>
+        <a href="https://www.i-diamants.com/" class="btn">Vendre</a>
+    </div>
+</body>
+
+</html>

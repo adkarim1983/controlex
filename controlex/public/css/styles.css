@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://static.toiimg.com/thumb/msid-99951507,width-1280,height-720,resizemode-4/99951507.jpg'); /* Assurez-vous du chemin correct vers l'image */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    list-style-type: none; /* Correction ici */
+    border: 2px solid #fff;
+    cursor: pointer;
+    margin: 15px 10px;
+    padding: 5px 10px; /* Correction de la faute de frappe */
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    border: 1px solid #fff;
+}
+
+ul li a:hover {
+    background-color: rgb(4, 4, 53);
+    color: #fff;
+}
+
+ul li.active a {
+    background-color: rgb(4, 4, 53);
+    color: #fff;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 5px 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: rgb(4, 4, 53);
+    color: #fff;
+}
